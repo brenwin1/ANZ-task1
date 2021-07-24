@@ -1,0 +1,19 @@
+---
+title: "Task2: Predictive Analytics"
+author: "Brenwin"
+date: "23/07/2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+library(tidyverse)
+```
+
+```{r}
+data <- readxl::read_xlsx("data/ANZ synthesised transaction dataset.xlsx")
+
+data_explore <- data
+```
+
